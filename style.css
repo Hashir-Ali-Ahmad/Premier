@@ -184,13 +184,23 @@ nav h3:nth-last-child(1){
 .page2 .page2-left{
     height: 100%;
     width: 52%;
-    background-image: url(https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fG1vZGVsJTIwcG90cmFpdHN8ZW58MHx8MHx8fDA%3D);
+    /* background-image: url(https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fG1vZGVsJTIwcG90cmFpdHN8ZW58MHx8MHx8fDA%3D); */
     background-position: 50% 0%;
     background-size: cover;
     
 }
+.page2-left img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+.page2-left h2{
+    margin-top: 1.6vw;
+    font-family: 'monument';
+}
 .page2 .page2-right{
-    height: 100%;
+    height: 90%;
     width: 40%;
 }
 .page2-right img{
@@ -209,7 +219,7 @@ nav h3:nth-last-child(1){
 }
 .page2-right .text-area .left{
     font-size: 1.5vw;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -1px;
     width: 45%;
 }
@@ -217,4 +227,68 @@ nav h3:nth-last-child(1){
     width: 45%;
     font-size: 1vw;
     font-weight: 400;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 10vw;
+}
+svg text{
+    font-size: 1.9vw;
+    transform-origin: 50% 50%;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.page3 .left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.page3 .left .left-animation{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin: 6.5vw 4.5vw;
+}
+.page3 .left .left-animation img{
+    position: absolute;
+    top: 33%;
+    right: 33%;
+    mix-blend-mode: difference;
+}
+.page3 .left .left-txt{
+    padding-right: 1vw;
+}
+.page3 .right{
+    width: 55%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1578102718171-ec1f91680562?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+    background-position: 50% 0%;
+}
+.page4{
+    height: 90%;
+    width: 100%;
+    padding: 3vw 10vw;
+}
+.page4 .content{
+    height: 100%;
+    width: 100%;
+    background: crimson;
+    background-image: url(Assets/Model2.png);
+    background-size: cover;
+    background-position: 50%;
 }
