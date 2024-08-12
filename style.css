@@ -449,3 +449,54 @@ position: relative;
     background-size: cover;
     background-position: 50% 20%;
 }
+
+/* =============== PAGE 8 =============== */
+
+.page8{
+    height: 110%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+}
+
+.page8 .page8-left{
+    height: 100%;
+    width: 52%;
+    background-position: 50% 0%;
+    background-size: cover;
+    
+}
+.page8-left img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+.page8 .page8-right{
+    height: 100%;
+    width: 40%;
+}
+.page8-right img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+.page8-right .text-area{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    padding-top: 1vw;
+}
+.page8-right .text-area h3{
+    font-weight: 700;
+    letter-spacing: -1px;
+    width: 27%;
+}
+.page8-right .text-area .right{
+    width: 60%;
+    font-size: 1vw;
+    font-weight: 400;
+}
