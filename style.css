@@ -309,3 +309,71 @@ svg text{
 
 /* =============== PAGE 5 =============== */
 
+.page5{
+    height: 100%;
+    width: 100%;
+    padding: 3vw 4vw;
+}
+.page5 > h1{
+    text-align: center;
+    font-family: 'monument';
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+.page5 .elem{
+height: 18vh;
+width: 100%;
+border-top: 2px solid #000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0vw 3vw;
+position: relative;
+}
+.page5 .elem:hover{
+    background: rgba(232, 227, 227, 0.461);
+}
+.elem img{
+    position: absolute;
+    left: 12%;
+    opacity: 0;
+    height: 80%;
+    width: 8%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+.page5 .elem:nth-last-child(1) img{
+    left: 45%;
+}
+.page5 .elem:nth-last-child(3) img{
+    left: 45%;
+}
+.page5 .elem:hover img{
+    opacity: 1;
+    left: 27%;
+    transform: scale(1.75)  rotate(1440deg);
+}
+.page5 .elem:nth-last-child(1){
+    border-bottom: 2px solid black;
+}
+.page5 .elem h4{
+    font-size: 1.5vw;
+    width: 6%;
+    text-transform: uppercase; 
+    font-weight: 500;
+}
+.elem .elem-right{
+    width: 45%;
+}
+.elem .elem-right h1{
+    font-style: 2.7vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.elem .elem-right h5{
+    font-style: 1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
