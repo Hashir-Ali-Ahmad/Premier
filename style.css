@@ -571,3 +571,68 @@ position: relative;
         width: 33%;
         padding-top: 2.5vw;
 }
+
+/* =========== responsive ========== */
+@media (max-width: 600px) {
+    
+    body{
+        /* overflow: hidden; */
+    }
+    /* =============== NAV =============== */
+
+nav{
+    margin-top: 15px;
+    height: 8vh;
+    padding-inline: 8vw;
+}
+nav h1{
+    width: fit-content;
+    font-size: 6vw;
+}
+nav > h1::after{
+    font-size: 5vw;
+    top: 0%;
+    right: -10%;
+}
+nav h3{
+    display: none !important;
+}
+
+
+/* =============== PAGE 1 =============== */
+.center{
+    height: 40%;
+}
+.content{
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+.content .overlay{
+    height: fit-content;
+}
+.overlay .over1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 3vh;
+}
+.over1 h1{
+    font-family: 'monument';
+    font-size: 5vw;
+}
+.over1 h2{
+    padding: 1vw 1.2vw;
+}
+.over2{
+    padding: 1.5vw 0vw;
+}
+.over2 h4{
+    font-size: 4vw;
+}
+.over2 img{
+    height: 6vw;
+}
+
+}
